@@ -1,0 +1,173 @@
+@font-face
+{
+    font-family: 'AlexBrush';
+    src:url(polices/AlexBrush-Regular.ttf);
+    src: url(polices/alexbrush-regular-webfont.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    background-image: url("background.jpg");
+    background: top left no-repeat cover fixed;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#wallpaper
+{
+    width: 70%;
+    margin:auto;
+}
+
+header
+{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#slogan h1
+{
+font-family: AlexBrush,serif;
+font-weight: normal;
+font-size: 2,5em;
+margin-top: auto;
+}
+
+#slogan
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#slogan img
+{
+    width: 210px;
+    height: 125px;
+}
+
+nav a, aside h1, footer h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav li
+{
+    margin-right: 4%;
+}
+
+nav a
+{
+    font-size: x-large;
+    color: #184b1f;
+    text-decoration: none;
+}
+
+nav ul a:hover
+{
+    color: lawngreen;
+}
+
+#banniere
+{
+    margin-top: 15px;
+    height: 20em;
+    border-radius: 8px;
+    background: url('coneutre.jpg') no-repeat center;
+    position: relative;
+    box-shadow: 0px 8px 8px #1c1a19;
+    margin-bottom: 25px;
+}
+
+#description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+    height: 3em;
+    padding-top: 13px;
+    padding-left: 4px;
+    background-color: rgba(24,24,24,0.6);
+    color: white;
+    font-size: 1em;
+}
+
+.bouton
+{
+    background: url(bouton.png) center;
+    background-size: cover;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: medium;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+article, aside
+{
+    text-align: justify;
+}
+
+article
+{
+    width: 58%;
+}
+
+article p
+{
+    font-size: 1.5em;
+}
+
+aside
+{
+    margin-right: 0px;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+    width: 40%;
+}
+
+footer
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 125px;
+    background-color: rgba(255, 255, 255, 0.753);
+    border-radius: 20px;
+}
+
+p
+{
+    color:black;
+    text-align: justify;
+    font-size: medium;
+}
